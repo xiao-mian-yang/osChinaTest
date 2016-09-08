@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout
+    android:id="@+id/content_fragment"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_weight="1"
+    ></FrameLayout>
+
+
+   <RadioGroup
+       android:id="@+id/radiogroup"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       >
+
+      <RadioButton
+          android:id="@+id/radiobtn1"
+          style="@style/bottomStyle"
+          android:text="综合"
+          android:drawableTop="@drawable/widget_bar_news_selector"
+          />
+      <RadioButton
+          android:id="@+id/radiobtn2"
+          style="@style/bottomStyle"
+          android:text="动弹"
+          android:drawableTop="@drawable/widget_bar_tweet_selector"
+          />
+      <RadioButton
+          android:id="@+id/radiobtn3"
+          style="@style/bottomStyle"
+          android:drawableTop="@drawable/btn_quickoption_selector"
+          android:layout_marginTop="5dp"
+          />
+      <RadioButton
+          android:id="@+id/radiobtn4"
+          style="@style/bottomStyle"
+          android:text="发现"
+          android:drawableTop="@drawable/widget_bar_expored_selector"
+
+          />
+
+      <RadioButton
+          android:id="@+id/radiobtn5"
+          style="@style/bottomStyle"
+          android:text="我"
+          android:drawableTop="@drawable/widget_bar_me_selector"
+
+          />
+
+
+
+
+   </RadioGroup>
+
+</LinearLayout>

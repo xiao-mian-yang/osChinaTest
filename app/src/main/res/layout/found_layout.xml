@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#fff"
+        android:drawableLeft="@drawable/icon_explore_friends"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="好友圈" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/text1"
+        android:layout_marginTop="15dp"
+        android:background="#fff"
+        android:drawableLeft="@drawable/icon_explore_finduser"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="找人" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#DADADA" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:drawableLeft="@drawable/icon_explore_event"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="活动" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#fff"
+        android:drawableLeft="@drawable/icon_explore_scan"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="扫一扫" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#DADADA" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:drawableLeft="@drawable/icon_explore_shake"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="摇一摇" />
+
+</LinearLayout>
